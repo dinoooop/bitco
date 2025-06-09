@@ -58,3 +58,136 @@ a:hover {
 .banner-content {
     flex: 2;
 }
+
+.bg-custom-body {
+    background-image: url("../images/body_bg.jpg");
+    background-size: cover;
+}
+
+section {
+    margin: 5rem 0;
+}
+.card-custom {
+    height: 15rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: aliceblue;
+    color: #090636;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-custom i {
+    font-size: 4rem;
+}
+
+.card-custom h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stretch-img  img {
+    width: 100%;
+}
+.border-wrap {
+    border: 1px dotted #fefefe;
+}
+
+.border-wrap p {
+    font-size: 1.4rem;
+}
+
+.flex-left {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.g-2{
+    gap: 2rem;
+}
+
+.btc {
+    font-weight: bold;
+}
+.yellow {
+    color: #f3f705;
+}
+
+.bfc {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.nfc {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.p-10 {
+    padding: 5rem;
+}
+
+.person {
+    text-align: center;
+}
+
+.person img {
+    border-radius: 1rem;
+}
+
+.ifr {
+    width: 100%;
+}
+
+.custom-form-control {
+    background-color: transparent;
+    color: #05d6f7 !important;
+    padding: 2rem 1rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1.5rem;
+    border:1px solid #3a1589;
+}
+
+.custom-form-control::placeholder   {
+    color: gray;
+}
+
+.custom-form-control:focus   {
+    background-color: transparent;
+    
+}
+
+.btn-big-2 {
+     background-color: transparent;
+    border: 2px solid #05d6f7;
+    color: #05d6f7;
+    padding: 1rem 4rem;
+    font-size: 0.8rem;
+    border-radius: 15rem;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
